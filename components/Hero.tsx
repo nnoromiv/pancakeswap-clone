@@ -8,7 +8,7 @@ import { AstroBunny, FatButton } from ".";
 function Carousel(){
     const [emblaRef] = useEmblaCarousel( {loop: true}, [Autoplay()])
     return(
-        <div className="embla ">
+        <div className="embla pt-[40px]">
             <div className="embla__viewport" ref={emblaRef}>
                 <div className="embla__container">
                     <div id="item1" className="embla__slide relative flex flex-col items-center justify-end max-w-full w-full z-0">
