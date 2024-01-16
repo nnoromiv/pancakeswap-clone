@@ -1,5 +1,5 @@
 "use client"
-import { Hero, NavBar, Trade, User } from '../../components'
+import { Earn, Hero, NavBar, Trade, User } from '../../components'
 
 export default function Home() {
 
@@ -9,6 +9,7 @@ export default function Home() {
       <Hero />
       <User />
       <Trade />
+      <Earn />
     </main>
   )
 }

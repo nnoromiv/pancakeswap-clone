@@ -16,6 +16,9 @@ import BUNNY from '../src/app/assets/svg/bunny.svg'
 import CARD_1 from '../src/app/assets/svg/card.svg'
 import USER_DIVIDER from '../src/app/assets/svg/user-divider.svg'
 import USER_DIVIDER_DARK from '../src/app/assets/svg/user-divider-dark.svg'
+import EARN_DIVIDER from '../src/app/assets/svg/earn-divider.svg'
+import EARN_DIVIDER_DARK from '../src/app/assets/svg/earn-divider-dark.svg'
+import INTERCHANGE from '../src/app/assets/svg/interchange.svg'
 
 
 import APTOS from "../src/app/assets/Images/aptos.png"
@@ -40,6 +43,9 @@ import BNB from "../src/app/assets/Cryptos/BNB.webp"
 import BTC from "../src/app/assets/Cryptos/BTC.webp"   
 import CAKE from "../src/app/assets/Cryptos/CAKE.webp"   
 
+import FOLDER from "../src/app/assets/Graphs/folder.webp"   
+import PIE from "../src/app/assets/Graphs/pie.webp"   
+import STOCK from "../src/app/assets/Graphs/stock.webp"  
 
 export {
     PANCAKE,
@@ -86,5 +92,14 @@ export {
 
     BNB,
     BTC,
-    CAKE
+    CAKE,
+
+    FOLDER,
+    PIE,
+    STOCK,
+
+    EARN_DIVIDER,
+    EARN_DIVIDER_DARK,
+
+    INTERCHANGE,
 }

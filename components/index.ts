@@ -1,5 +1,6 @@
-import { AstroBunny, Cryptos } from "./Animations";
+import { AstroBunny, Cryptos, Profit } from "./Animations";
 import { FatButton, SlimButton, ToggleSwitch } from "./Buttons";
+import Earn from "./Earn";
 import Hero from "./Hero";
 import NavBar from "./NavBar";
 import Trade from "./Trade";
@@ -15,6 +16,7 @@ export {
     AstroBunny,
     User,
     Trade,
-    Cryptos
-
+    Cryptos,
+    Earn,
+    Profit
 }

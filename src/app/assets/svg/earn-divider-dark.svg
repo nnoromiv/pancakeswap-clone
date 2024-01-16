@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(0)">
+      <stop offset="0%" stop-color="#3b4155" />
+      <stop offset="100%" stop-color="#3a3045" />
+    </linearGradient>
+  </defs>
+  <path 
+    fill="url(#gradient)" 
+    fill-opacity="1" 
+    d="M0,100L0,100L1440,100L0,0Z"  
+  />
+</svg>

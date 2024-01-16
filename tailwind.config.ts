@@ -56,6 +56,8 @@ const config: Config = {
         'hero-gradient-dark' : "radial-gradient(105% 50% at 50% 50%,#21193a 0%,#191326 100%)",
         'user-gradient': 'linear-gradient(180deg,#fff 22%,#d7caec 100%)',
         'user-gradient-dark': 'linear-gradient(180deg,#201335 100%, #09070c 22%)',
+        'earn-gradient': 'linear-gradient(110deg,#f2ecf2,#e8f2f6)',
+        'earn-gradient-dark': 'linear-gradient(110deg,#3b4155,#3a3045)',
         'sun': "url(../../src/app/assets/svg/sun.svg)",
         'moon': "url(../../src/app/assets/svg/moon.svg)"
       },

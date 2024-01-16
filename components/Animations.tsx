@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ASTRO_BUNNY, BNB, BOTTOM_L_BIG_ROCK, BOTTOM_L_SMALL_ROCK, BOTTOM_ROCK, BOTTOM_R_PANCAKE, BTC, CAKE, MIDDLE_R_STAR, STAR_L_2X, STAR_R_2X, TOP_R_BIG_ROCK, TOP_R_SMALL_ROCK, TOP_R_STAR, TOP_R_STAR_2X } from "./images"
+import { ASTRO_BUNNY, BNB, BOTTOM_L_BIG_ROCK, BOTTOM_L_SMALL_ROCK, BOTTOM_ROCK, BOTTOM_R_PANCAKE, BTC, CAKE, FOLDER, MIDDLE_R_STAR, PIE, STAR_L_2X, STAR_R_2X, STOCK, TOP_R_BIG_ROCK, TOP_R_SMALL_ROCK, TOP_R_STAR, TOP_R_STAR_2X } from "./images"
 import React, { useEffect } from "react"
 
 type AnimationProps = {
@@ -80,7 +80,20 @@ const Cryptos = () => {
     )
 }
 
+const Profit = () => {
+    return(
+        <Animation customStyle="max-w-[26rem] max-h-[26rem]" id="layer">
+            <div>
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={FOLDER} data-layer="-1" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={PIE} data-layer="0" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={STOCK} data-layer="1" />
+            </div>
+        </Animation>
+    )
+}
+
 export {
     AstroBunny,
-    Cryptos
+    Cryptos,
+    Profit
 }
