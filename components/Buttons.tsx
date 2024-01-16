@@ -11,9 +11,9 @@ const FatButton : React.FC<FatButtonProps> = ({ super : {clickFunction, customSt
     <div className=''>
         {
             outline ?
-            <button className="flex items-center justify-center h-12 py-0 px-6 bg-transparent border-solid border-[2px] border-accent rounded-2xl font-semibold text-sm tracking-sm text-accent cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px]">{title}</button>
+            <button className={`flex items-center justify-center h-12 py-0 px-6 bg-transparent border-solid border-[2px] border-accent rounded-2xl font-semibold text-sm tracking-sm text-accent cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] ${customStyle}`}>{title}</button>
             :
-            <button className="flex dark:text-base-100 items-center tracking-sm justify-center h-12 py-0 px-6 bg-accent rounded-2xl shadow-shadow font-semibold text-sm text-primary cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] active:shadow-none">{title}</button>
+            <button className={`flex dark:text-base-100 items-center tracking-sm justify-center h-12 py-0 px-6 bg-accent rounded-2xl shadow-shadow font-semibold text-sm text-primary cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] ${customStyle} active:shadow-none`}>{title}</button>
         }
     </div>
   )

@@ -22,9 +22,6 @@ const config: Config = {
       letterSpacing: {
         "sm" : "0.07em"
       },
-      boxShadow : {
-        "shadow": "inset 0px -1px 0px 0px rgb(14 14 44 / 40%)"
-      },
       fontFamily: {
         kanit : ["Kanit", "san-serif"]
       },
@@ -44,7 +41,12 @@ const config: Config = {
         "disabled": "#666171",
         "card-shadow": "#E7E3EB",
         "card-shadow-dark": "#383241",
-        "card-background": "var(primary)", 
+        "card-background": "#ffffff", 
+      },
+      boxShadow : {
+        "shadow": "inset 0px -1px 0px 0px  #0E0E2C66",
+        "card": "0px 4px 0px 0px #E7E3EB",
+        "card-dark": "0px 4px 0px 0px #666171"
       },
       backgroundImage: {
         'light-mode': "#FFFFFF",
@@ -52,6 +54,8 @@ const config: Config = {
         'gradient-bg': "linear-gradient(rgb(0, 191, 165) 0%, rgb(0, 90, 90) 100%)",
         'hero-gradient' : "linear-gradient(140deg, #e6fdff 0%, #f3efff 100%)",
         'hero-gradient-dark' : "radial-gradient(105% 50% at 50% 50%,#21193a 0%,#191326 100%)",
+        'user-gradient': 'linear-gradient(180deg,#fff 22%,#d7caec 100%)',
+        'user-gradient-dark': 'linear-gradient(180deg,#201335 100%, #09070c 22%)',
         'sun': "url(../../src/app/assets/svg/sun.svg)",
         'moon': "url(../../src/app/assets/svg/moon.svg)"
       },

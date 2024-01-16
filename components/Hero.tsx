@@ -70,9 +70,9 @@ function Carousel(){
 
 const Page = () => {
     return(
-        <div className="mt-[30px] max-[769px]:px-[20px] max-[456px]:px-[5px] flex justify-between gap-3 max-[456px]:flex-col ">
-            <div className="flex flex-col justify-center">
-                <h2 className="text-8xl font-bold text-secondary z-0 max-[1025px]:text-6xl max-[769px]:text-4xl max-[768px]:text-2xl">The moon is made <br /> of pancakes.</h2>
+        <div className="mt-[30px] max-[769px]:px-[20px] max-[456px]:px-[5px] flex justify-between max-[426px]:items-center gap-3 max-[456px]:flex-col ">
+            <div className="flex flex-col justify-center relative z-[2]">
+                <h2 className="text-8xl font-bold text-secondary z-0 max-[1025px]:text-7xl max-[426px]:text-5xl">The moon is made <br /> of pancakes.</h2>
                 <h2 className="mt-10 font-semibold text-xl z-0 max-[769px]:text-sm  text-secondary-darker dark:text-primary-darker">Trade, earn, and win crypto on the most popular decentralized <br /> platform in the galaxy.</h2>
                 <div className="flex mt-10 gap-3 z-0">
                     <FatButton super={{ title: "Connect wallet"}} />

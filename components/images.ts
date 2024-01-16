@@ -12,6 +12,11 @@ import SUN from '../src/app/assets/svg/sun.svg'
 import MOON from '../src/app/assets/svg/moon.svg'
 import BIG_DIVIDER from '../src/app/assets/svg/big-divider.svg'
 import BIG_DIVIDER_DARK from '../src/app/assets/svg/big-divider-dark.svg'
+import BUNNY from '../src/app/assets/svg/bunny.svg'
+import CARD_1 from '../src/app/assets/svg/card.svg'
+import USER_DIVIDER from '../src/app/assets/svg/user-divider.svg'
+import USER_DIVIDER_DARK from '../src/app/assets/svg/user-divider-dark.svg'
+
 
 import APTOS from "../src/app/assets/Images/aptos.png"
 import LOTTERY from "../src/app/assets/Images/perpetual.png"
@@ -30,6 +35,11 @@ import BOTTOM_ROCK from "../src/app/assets/AstroBunny/bottom-rock.png"
 import BOTTOM_L_SMALL_ROCK from "../src/app/assets/AstroBunny/bottom-l-small-rock.png" 
 import STAR_L_2X from "../src/app/assets/AstroBunny/star-l_2x.png" 
 import BOTTOM_L_BIG_ROCK from "../src/app/assets/AstroBunny/bottom-l-big-rock.png"   
+
+import BNB from "../src/app/assets/Cryptos/BNB.webp"   
+import BTC from "../src/app/assets/Cryptos/BTC.webp"   
+import CAKE from "../src/app/assets/Cryptos/CAKE.webp"   
+
 
 export {
     PANCAKE,
@@ -67,5 +77,14 @@ export {
     BOTTOM_L_BIG_ROCK ,
 
     BIG_DIVIDER,
-    BIG_DIVIDER_DARK
+    BIG_DIVIDER_DARK,
+
+    BUNNY,
+    CARD_1,
+    USER_DIVIDER,
+    USER_DIVIDER_DARK,
+
+    BNB,
+    BTC,
+    CAKE
 }
