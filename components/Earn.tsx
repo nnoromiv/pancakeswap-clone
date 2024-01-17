@@ -43,7 +43,7 @@ const EarnInformation = () => {
         return () => clearInterval(intervalId);
 
     
-      }, [text]);
+      }, [text,switched]);
 
     return(
         <div className="flex flex-col px-20 max-lg:px-5 max-md:px-1 lg:pb-24 gap-4 mt-10 md:pb-48 max-sm:pb-56">
@@ -78,8 +78,8 @@ const Earn = () => {
                     </h1>
                     <p className="text-secondary-lighter my-5 dark:text-secondary-lightest max-[426px]:px-2 max-[426px]:text-xs">PancakeSwap makes it easy to make your crypto work for you.</p>
                     <div className="flex gap-5">
-                        <FatButton super={{ title: "Explore" }}  />
-                        <FatButton outline super={{ title: "Learn", customStyle: "border-none" }} />
+                        <FatButton super={{ title: "Explore" }} image={false} providedImage={""} />
+                        <FatButton outline super={{ title: "Learn", customStyle: "border-none" }} image={false} providedImage={""} />
                     </div>
                 </div>
            </div>

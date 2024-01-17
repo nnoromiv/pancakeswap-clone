@@ -52,3 +52,22 @@ export interface AnimationProps {
     customStyle?: string
     id: string
 }
+
+export interface CardProps  {
+    image : any
+    title: string
+    subtext?: string
+    subtextStyle?: string
+    spanTitle?: string
+    spanColor? : string
+    text: string
+    background? : string
+    shadow? : string,
+    customStyle? : string
+    excerpt?: string
+    button?: boolean,
+    buttonTitle? : string
+    buttonImage: string | StaticImport
+    buttonImageDark: string | StaticImport
+    textStyle?: string
+}

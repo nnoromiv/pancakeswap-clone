@@ -14,8 +14,8 @@ function Carousel(){
                 <div className="embla__container">
                     {
                         CAROUSEl.map((item, index) => (
-                            <div id={`item` + index} className="embla__slide relative flex flex-col items-center justify-end max-w-full w-full z-0">
-                                <div className={`flex flex-col h-full w-full rounded-3xl z-0 justify-between ${item.extraStyle}`}>
+                            <div key={index} id={`item` + index} className="embla__slide relative flex flex-col items-center justify-end max-w-full w-full z-0">
+                                <div className={`flex flex-col h-full w-full rounded-3xl z-0 justify-between ${index >= 1 ? "bg-secondary" : "bg-gradient-bg"}`}>
                                     <Image priority width={10000} height={50} alt="carousel"  src={item.bodyImage} className="flex absolute max-w-full max-h-full -bottom-7 overflow-visible z-[1] transition-all ease-in-out" />
                                     <div className="flex mt-10 ml-10 max-[321px]:ml-5">
                                         {
@@ -44,7 +44,7 @@ const Page = () => {
     return(
         <div className="mt-[30px] max-[769px]:px-[20px] max-[456px]:px-[5px] flex justify-between max-[426px]:items-center gap-3 max-[456px]:flex-col ">
             <div className="flex flex-col justify-center relative z-[2]">
-                <h2 className="text-8xl font-bold text-secondary z-0 max-[1025px]:text-7xl max-[426px]:text-5xl">The moon is made <br /> of pancakes.</h2>
+                <h2 className="text-8xl font-bold text-secondary z-0 max-[1025px]:text-7xl max-[426px]:text-3xl">The moon is made <br /> of pancakes.</h2>
                 <h2 className="mt-10 font-semibold text-xl z-0 max-[769px]:text-sm  text-secondary-darker dark:text-primary-darker">Trade, earn, and win crypto on the most popular decentralized <br /> platform in the galaxy.</h2>
                 <div className="flex mt-10 gap-3 z-0">
                     <FatButton super={{ title: "Connect wallet"}} image={false} providedImage={""} />

@@ -8,6 +8,7 @@ import DROPDOWN_ARROW from '../src/app/assets/svg/arrow-down.svg'
 import DROPDOWN_ARROW_LIGHT from '../src/app/assets/svg/arrow-down-light.svg'
 import SHARE from "../src/app/assets/svg/share.svg"
 import ARROW from "../src/app/assets/svg/arrow.svg"
+import ARROW_DARK from "../src/app/assets/svg/arrow-dark.svg"
 import SUN from '../src/app/assets/svg/sun.svg'
 import MOON from '../src/app/assets/svg/moon.svg'
 import BIG_DIVIDER from '../src/app/assets/svg/big-divider.svg'
@@ -19,6 +20,8 @@ import USER_DIVIDER_DARK from '../src/app/assets/svg/user-divider-dark.svg'
 import EARN_DIVIDER from '../src/app/assets/svg/earn-divider.svg'
 import EARN_DIVIDER_DARK from '../src/app/assets/svg/earn-divider-dark.svg'
 import INTERCHANGE from '../src/app/assets/svg/interchange.svg'
+import PREDICTION from '../src/app/assets/svg/prediction.svg'
+import LOTTERY_TAG from '../src/app/assets/svg/lottery.svg'
 
 
 import APTOS from "../src/app/assets/Images/aptos.png"
@@ -45,7 +48,18 @@ import CAKE from "../src/app/assets/Cryptos/CAKE.webp"
 
 import FOLDER from "../src/app/assets/Graphs/folder.webp"   
 import PIE from "../src/app/assets/Graphs/pie.webp"   
-import STOCK from "../src/app/assets/Graphs/stock.webp"  
+import STOCK from "../src/app/assets/Graphs/stock.webp" 
+
+import BLUE from "../src/app/assets/Balls/blue.webp"   
+import PINK from "../src/app/assets/Balls/pink.webp"   
+import GREEN from "../src/app/assets/Balls/green.webp" 
+import VIOLET from "../src/app/assets/Balls/violet.webp"   
+import YELLOW from "../src/app/assets/Balls/yellow.webp"   
+
+import BOTTOM_LEFT_TICKET from "../src/app/assets/Tickets/bottom_left.webp" 
+import GREEN_TICKET from "../src/app/assets/Tickets/green.webp"   
+import PINK_TICKET from "../src/app/assets/Tickets/pink.webp"   
+import TOP_RIGHT_TICKET from "../src/app/assets/Tickets/top_right.webp" 
 
 export {
     PANCAKE,
@@ -102,4 +116,19 @@ export {
     EARN_DIVIDER_DARK,
 
     INTERCHANGE,
+
+    BLUE,   
+    PINK,   
+    GREEN,
+    VIOLET,
+    YELLOW,
+
+    BOTTOM_LEFT_TICKET,
+    GREEN_TICKET,
+    PINK_TICKET,   
+    TOP_RIGHT_TICKET,
+    PREDICTION,
+
+    LOTTERY_TAG,
+    ARROW_DARK
 }

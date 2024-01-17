@@ -46,7 +46,9 @@ const config: Config = {
       boxShadow : {
         "shadow": "inset 0px -1px 0px 0px  #0E0E2C66",
         "card": "0px 4px 0px 0px #E7E3EB",
-        "card-dark": "0px 4px 0px 0px #666171"
+        "card-dark": "0px 4px 0px 0px #666171",
+        "gold-card": "inset 0px -4px 0px 0px #ffb237",
+        "purple-card": "inset 0px -4px 0px 0px #280d5f"
       },
       backgroundImage: {
         'light-mode': "#FFFFFF",
@@ -57,7 +59,11 @@ const config: Config = {
         'user-gradient': 'linear-gradient(180deg,#fff 22%,#d7caec 100%)',
         'user-gradient-dark': 'linear-gradient(180deg,#201335 100%, #09070c 22%)',
         'earn-gradient': 'linear-gradient(110deg,#f2ecf2,#e8f2f6)',
-        'earn-gradient-dark': 'linear-gradient(110deg,#3b4155,#3a3045)',
+        'earn-gradient-dark': 'linear-gradient(110deg,#3b4155,#3a3045)',        
+        'prize-gradient' : 'linear-gradient(180deg,#6fb6f1 0%,#eaf2f6 100%)',        
+        'prize-gradient-dark': 'linear-gradient(180deg,#0b4576 0%,#091115 100%)',
+        'gradient-gold': 'linear-gradient(#ffb237, #FFE76A)',
+        'gradient-secondary' : 'linear-gradient(#7645D9, #5121b1)',
         'sun': "url(../../src/app/assets/svg/sun.svg)",
         'moon': "url(../../src/app/assets/svg/moon.svg)"
       },

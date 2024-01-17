@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ASTRO_BUNNY, BNB, BOTTOM_L_BIG_ROCK, BOTTOM_L_SMALL_ROCK, BOTTOM_ROCK, BOTTOM_R_PANCAKE, BTC, CAKE, FOLDER, MIDDLE_R_STAR, PIE, STAR_L_2X, STAR_R_2X, STOCK, TOP_R_BIG_ROCK, TOP_R_SMALL_ROCK, TOP_R_STAR, TOP_R_STAR_2X } from "./images"
+import { ASTRO_BUNNY, BLUE, BNB, BOTTOM_LEFT_TICKET, BOTTOM_L_BIG_ROCK, BOTTOM_L_SMALL_ROCK, BOTTOM_ROCK, BOTTOM_R_PANCAKE, BTC, CAKE, FOLDER, GREEN, GREEN_TICKET, MIDDLE_R_STAR, PIE, PINK, PINK_TICKET, STAR_L_2X, STAR_R_2X, STOCK, TOP_RIGHT_TICKET, TOP_R_BIG_ROCK, TOP_R_SMALL_ROCK, TOP_R_STAR, TOP_R_STAR_2X, VIOLET, YELLOW } from "./images"
 import React, { useEffect } from "react"
 import { AnimationProps } from "../types"
 
@@ -88,8 +88,38 @@ const Profit = () => {
     )
 }
 
+const Balls = () => {
+    return(
+        <Animation customStyle="max-w-[32rem] max-h-[32rem]" id="layer">
+            <div>
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={YELLOW} data-layer="-3" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={VIOLET} data-layer="-2" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={GREEN} data-layer="-1" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={BLUE} data-layer="1" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={PINK} data-layer="2" />
+
+            </div>
+        </Animation>
+    )
+}
+
+const Tickets = () => {
+    return(
+        <Animation customStyle="max-w-[32rem] max-h-[32rem] z-0" id="layer">
+            <div>
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={TOP_RIGHT_TICKET} data-layer="-2" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={BOTTOM_LEFT_TICKET} data-layer="-1" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={PINK_TICKET} data-layer="1" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={GREEN_TICKET} data-layer="2" />
+            </div>
+        </Animation>
+    )
+}
+
 export {
     AstroBunny,
     Cryptos,
-    Profit
+    Profit,
+    Balls,
+    Tickets
 }

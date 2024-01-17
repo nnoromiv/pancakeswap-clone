@@ -224,7 +224,6 @@ export const CAROUSEl = [
         title: "Hello Aptos Project Team!",
         buttonTitle: "👋 Get in Touch",
         buttonImage: SHARE,
-        extraStyle: "bg-gradient-bg"
     },
     {
         bodyImage: LOTTERY,
@@ -234,7 +233,6 @@ export const CAROUSEl = [
         title: "Upto 100X Leverage!",
         buttonTitle: "Trade Now",
         buttonImage: ARROW,
-        extraStyle: "bg-secondary"
     },
     {
         bodyImage: PERPETUAL,
@@ -244,7 +242,6 @@ export const CAROUSEl = [
         title: "06h 57m 00s",
         buttonTitle: "Play Now",
         buttonImage: ARROW,
-        extraStyle: "bg-secondary"
     }
 ]
 
