@@ -5,7 +5,7 @@ export interface ProviderProps {
     children: string | React.ReactNode | React.JSX.Element| React.JSX.Element[]
 }
 
-export interface CustomButtonProps {
+export interface CarouselProps {
     image?: boolean,
     networkButton: boolean,
     title?: string | null,
@@ -22,6 +22,8 @@ export interface ButtonProps {
 export interface FatButtonProps {
     super: ButtonProps,
     outline?: boolean
+    image? : boolean
+    providedImage: string | StaticImport
 }
 
 export interface SlimButtonProps {
@@ -34,4 +36,19 @@ export interface SlimButtonProps {
 export interface ToggleButtonProps {
     super: ButtonProps,
     toggleDarkStyles?: string
+}
+
+export interface PoolArray {
+    poolName: string,
+    gain: string
+}
+
+export interface PoolProps {
+    Pool: PoolArray[]
+}
+
+export interface AnimationProps {
+    children: React.ReactElement,
+    customStyle?: string
+    id: string
 }

@@ -1,11 +1,11 @@
 "use client"
-import { Earn, Hero, NavBar, Trade, User } from '../../components'
+import { Earn, Hero, Nav, Trade, User } from '../../components'
 
 export default function Home() {
 
   return (
     <main  className="min-h-screen bg-primary dark:bg-primary-dark-mode overflow-x-hidden" >
-      <NavBar />
+      <Nav />
       <Hero />
       <User />
       <Trade />

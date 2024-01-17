@@ -1,12 +1,8 @@
 import Image from "next/image"
 import { ASTRO_BUNNY, BNB, BOTTOM_L_BIG_ROCK, BOTTOM_L_SMALL_ROCK, BOTTOM_ROCK, BOTTOM_R_PANCAKE, BTC, CAKE, FOLDER, MIDDLE_R_STAR, PIE, STAR_L_2X, STAR_R_2X, STOCK, TOP_R_BIG_ROCK, TOP_R_SMALL_ROCK, TOP_R_STAR, TOP_R_STAR_2X } from "./images"
 import React, { useEffect } from "react"
+import { AnimationProps } from "../types"
 
-type AnimationProps = {
-    children: React.ReactElement,
-    customStyle?: string
-    id: string
-}
 
 const Animation = ({children, customStyle, id} : AnimationProps) => {
     useEffect(() => {

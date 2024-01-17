@@ -4,7 +4,7 @@ import { ThemeSwitcher } from '@/app'
 import Link from 'next/link'
 import { NAVIGATION, LANGUAGES } from '../constants'
 import { SlimButton } from '.'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { DROPDOWN_ARROW, DROPDOWN_ARROW_LIGHT, GLOBE, HAMBURGER, HAMBURGER_LIGHT, PANCAKE, PANCAKE_LIGHT, PRICE_PANCAKE } from './images';
 
 const MobileNavigation = () => {
@@ -154,7 +154,7 @@ const Logo = () => {
 }
 
 
-export default function NavBar(){    
+export default function Nav(){    
     return(
         <div className="navbar bg-primary px-3 dark:bg-background-alt max-[321px]:px-2" >
             <div className="flex-1"> 
