@@ -5,6 +5,7 @@ import Earn, {Pool} from "./Earn";
 import Hero from "./Hero";
 import Nav, {Logo} from "./Nav";
 import Prize from "./Prize";
+import ScrollUp from "./ScrollUp";
 import Trade from "./Trade";
 import User, { Card } from "./User";
 import Footer, { TopFooter } from "./Footer";
@@ -12,6 +13,7 @@ import Footer, { TopFooter } from "./Footer";
 export {
     Nav,
     Logo,
+    ScrollUp,
     Hero,
     FatButton,
     SlimButton,

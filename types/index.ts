@@ -14,7 +14,7 @@ export interface CarouselProps {
 }
 
 export interface ButtonProps {
-    clickFunction? : MouseEventHandler<HTMLInputElement>
+    clickFunction? : () => void
     title?: string,
     customStyle?: string
 }
@@ -36,6 +36,7 @@ export interface SlimButtonProps {
 export interface ToggleButtonProps {
     super: ButtonProps,
     toggleDarkStyles?: string
+    clickFunction? : MouseEventHandler<HTMLInputElement>
 }
 
 export interface PoolArray {

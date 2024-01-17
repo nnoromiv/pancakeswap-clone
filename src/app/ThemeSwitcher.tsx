@@ -21,9 +21,9 @@ export default function ThemeSwitcher(){
         <>
             {
                 currentTheme === 'dark' ?
-                <ToggleSwitch super={{ clickFunction: handleToggle }} toggleDarkStyles="translate-x-[1.5rem]" />
+                <ToggleSwitch super={{ }} clickFunction={handleToggle} toggleDarkStyles="translate-x-[1.5rem]" />
                 :
-                <ToggleSwitch super={{ clickFunction: handleToggle }} toggleDarkStyles="" />
+                <ToggleSwitch super={{ }}clickFunction={handleToggle} toggleDarkStyles="" />
             }
         </>
     )

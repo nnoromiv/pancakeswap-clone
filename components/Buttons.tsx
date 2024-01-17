@@ -11,14 +11,14 @@ const FatButton : React.FC<FatButtonProps> = ({ super : {clickFunction, customSt
     <div className=''>
         {
             outline ?
-            <button className={`flex items-center justify-center h-12 py-0 px-6 bg-transparent border-solid border-[2px] border-accent rounded-2xl font-semibold text-sm tracking-sm text-accent cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] ${customStyle}`}>
+            <button onClick={clickFunction} className={`flex items-center justify-center h-12 py-0 px-6 bg-transparent border-solid border-[2px] border-accent rounded-2xl font-semibold text-sm tracking-sm text-accent cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] ${customStyle}`}>
                 <p className="mr-2">{title}</p>
                 {
                     image && <Image priority width={20} height={20} alt="share"  src={providedImage} className="" />
                 }
             </button>
             :
-            <button className={`flex dark:text-base-100 items-center tracking-sm justify-center h-12 py-0 px-6 bg-accent rounded-2xl shadow-shadow font-semibold text-sm text-primary cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] ${customStyle} active:shadow-none`}>
+            <button onClick={clickFunction}  className={`flex dark:text-base-100 items-center tracking-sm justify-center h-12 py-0 px-6 bg-accent rounded-2xl shadow-shadow font-semibold text-sm text-primary cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] ${customStyle} active:shadow-none`}>
                 <p className="mr-2">{title}</p>
                 {
                     image && <Image priority width={20} height={20} alt="share"  src={providedImage} className="" />
@@ -34,7 +34,7 @@ const SlimButton: React.FC<SlimButtonProps> = ({ super : {clickFunction, customS
       <div className='px-1'>
           {
               primary ?
-              <button className={`flex items-center tracking-sm justify-center h-8 py-0 px-6 bg-accent rounded-2xl shadow-shadow font-semibold text-sm text-primary cursor-pointer transition-all dark:text-secondary-darker ${customStyle}`}> 
+              <button onClick={clickFunction} className={`flex items-center tracking-sm justify-center h-8 py-0 px-6 bg-accent rounded-2xl shadow-shadow font-semibold text-sm text-primary cursor-pointer transition-all dark:text-secondary-darker ${customStyle}`}> 
               {
                 !allowJSX ? 
                     title : 
@@ -42,7 +42,7 @@ const SlimButton: React.FC<SlimButtonProps> = ({ super : {clickFunction, customS
               }
               </button>
               :
-              <button className={`flex items-center text-secondary-darker tracking-sm justify-center h-8 py-0 px-6 bg-primary-darker rounded-2xl shadow-shadow font-semibold text-sm cursor-pointer transition-all dark:bg-base-100 dark:text-white ${customStyle}`}>
+              <button onClick={clickFunction} className={`flex items-center text-secondary-darker tracking-sm justify-center h-8 py-0 px-6 bg-primary-darker rounded-2xl shadow-shadow font-semibold text-sm cursor-pointer transition-all dark:bg-base-100 dark:text-white ${customStyle}`}>
                 {
                     !allowJSX ? 
                         title : 
@@ -54,7 +54,7 @@ const SlimButton: React.FC<SlimButtonProps> = ({ super : {clickFunction, customS
     )
 }
 
-const ToggleSwitch : React.FC<ToggleButtonProps>  = ({ super : {clickFunction, customStyle, title} , toggleDarkStyles}) => {
+const ToggleSwitch : React.FC<ToggleButtonProps>  = ({ super : {customStyle, title} , clickFunction, toggleDarkStyles}) => {
     
     return (
         <div className="group relative h-7 w-calc-width rounded-calc-radius bg-disabled transition-all ease-in-out ">

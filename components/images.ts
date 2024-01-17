@@ -22,6 +22,7 @@ import EARN_DIVIDER_DARK from '../src/app/assets/svg/earn-divider-dark.svg'
 import INTERCHANGE from '../src/app/assets/svg/interchange.svg'
 import PREDICTION from '../src/app/assets/svg/prediction.svg'
 import LOTTERY_TAG from '../src/app/assets/svg/lottery.svg'
+import ARROW_UP from '../src/app/assets/svg/arrow-up.svg'
 
 
 import APTOS from "../src/app/assets/Images/aptos.png"
@@ -83,6 +84,8 @@ export {
     HAMBURGER_LIGHT,
     DROPDOWN_ARROW,
     DROPDOWN_ARROW_LIGHT,
+
+    ARROW_UP,
 
     APTOS,
     LOTTERY,
