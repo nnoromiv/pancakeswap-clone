@@ -39,8 +39,8 @@ export interface ToggleButtonProps {
 }
 
 export interface PoolArray {
-    poolName: string,
-    gain: string
+    title: string,
+    text: string
 }
 
 export interface PoolProps {

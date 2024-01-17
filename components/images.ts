@@ -61,6 +61,19 @@ import GREEN_TICKET from "../src/app/assets/Tickets/green.webp"
 import PINK_TICKET from "../src/app/assets/Tickets/pink.webp"   
 import TOP_RIGHT_TICKET from "../src/app/assets/Tickets/top_right.webp" 
 
+import BOTTOM_RIGHT from "../src/app/assets/About/bottom_right.webp" 
+import COIN from "../src/app/assets/About/coin.webp"   
+import TOP_LEFT from "../src/app/assets/About/top-left.webp"   
+import TOP_RIGHT from "../src/app/assets/About/top-right.webp" 
+
+import BOTTOM_LEFT from "../src/app/assets/MovingPancakes/bottom-left.webp"   
+import BOTTOM_RIGHT_PANCAKES from "../src/app/assets/MovingPancakes/bottom-right.webp"   
+import BOTTOM_MIDDLE from "../src/app/assets/MovingPancakes/middle.webp" 
+
+import TOP_BOTTOM from "../src/app/assets/MovingPancakes/top-bottom.webp"   
+import TOP_MIDDLE from "../src/app/assets/MovingPancakes/top-middle.webp"   
+import TOP_RIGHT_PANCAKES from "../src/app/assets/MovingPancakes/top-right.webp" 
+
 export {
     PANCAKE,
     PANCAKE_LIGHT,
@@ -130,5 +143,18 @@ export {
     PREDICTION,
 
     LOTTERY_TAG,
-    ARROW_DARK
+    ARROW_DARK,
+
+    BOTTOM_RIGHT,
+    COIN,    
+    TOP_LEFT, 
+    TOP_RIGHT,
+
+    BOTTOM_LEFT,
+    BOTTOM_RIGHT_PANCAKES,   
+    BOTTOM_MIDDLE,
+
+    TOP_BOTTOM,   
+    TOP_MIDDLE,   
+    TOP_RIGHT_PANCAKES,
 }

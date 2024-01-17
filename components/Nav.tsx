@@ -144,7 +144,7 @@ const SelectProvider = () => {
     )
 }
 
-const Logo = () => {
+export const Logo = () => {
     return(
         <a href='/' className='max-[734px]:w-4/6 max-[605px]:hidden'>
             <Image priority src={PANCAKE} width={150} height={150}   className='hidden object-fit dark:flex'  alt='pancake'/>

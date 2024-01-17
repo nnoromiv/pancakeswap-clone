@@ -247,46 +247,152 @@ export const CAROUSEl = [
 
 export const POOL = [
     {
-        poolName: "WMX-BUSD LP",
-        gain: "130.320"
+        title: "WMX-BUSD LP",
+        text: "130.320"
     },
     {
-        poolName: "KRS-BUSD LP",
-        gain: "122.320"
+        title: "KRS-BUSD LP",
+        text: "122.320"
     },
     {
-        poolName: "MGP-BUSD LP",
-        gain: "116.840"
+        title: "MGP-BUSD LP",
+        text: "116.840"
     },
     {
-        poolName: "ARV-BNB LP",
-        gain: "102.034"
+        title: "ARV-BNB LP",
+        text: "102.034"
     },
     {
-        poolName: "HOOP-BUSD LP",
-        gain: "98.997%"
+        title: "HOOP-BUSD LP",
+        text: "98.997%"
     },
 ]
 
 export const SYRUP = [
     {
-        poolName: "State CAKE",
-        gain: "59.674"
+        title: "State CAKE",
+        text: "59.674"
     },
     {
-        poolName: "State CAKE - Earn KRS",
-        gain: "6.216"
+        title: "State CAKE - Earn KRS",
+        text: "6.216"
     },
     {
-        poolName: "State CAKE - Earn XCAD",
-        gain: "6.203"
+        title: "State CAKE - Earn XCAD",
+        text: "6.203"
     },
     {
-        poolName: "State CAKE - Earn MGP",
-        gain: "6.089"
+        title: "State CAKE - Earn MGP",
+        text: "6.089"
     },
     {
-        poolName: "State CAKE - Earn WMX",
-        gain: "5.686"
+        title: "State CAKE - Earn WMX",
+        text: "5.686"
     },
+]
+
+export const ABOUT = [
+    {
+        title: "Circulating Supply",
+    	text: "145,764,388"
+    },
+    {
+        title: "Market cap",
+    	text: "$570 million"
+    },
+    {
+        title: "Total supply",
+    	text: "345,337,763"
+    },
+    {
+        title: "Burned to date",
+    	text: "646,943,269"
+    },
+
+    {
+        title: "Max Supply",
+    	text: "750,000,000"
+    },
+    {
+        title: "Current emissions",
+    	text: "11.16/block"
+    },
+]
+
+export const FOOTER = [
+    {
+        header: "About",
+        links: [
+            {
+                linkName: "Contact",
+                link: "/"
+            },
+            {
+                linkName: "Brand",
+                link: "/"
+            },
+            {
+                linkName: "Blog",
+                link: "/"
+            },
+            {
+                linkName: "Community",
+                link: "/"
+            },
+            {
+                linkName: "Litepaper",
+                link: "/"
+            },
+            {
+                linkName: "—",
+                link: "/"
+            },
+            {
+                linkName: "Online Store",
+                link: "/"
+            }
+        ]
+    }, 
+    {
+        header: 'Developers',
+        links: [
+                {
+                linkName: "Github",
+                link: "/"
+                },
+                {
+                    linkName: "Documentation",
+                    link: "/"
+                },
+                {
+                    linkName: "Bug Bounty",
+                    link: "/"
+                },
+                {
+                    linkName: "Audits",
+                    link: "/"
+                },
+                {
+                    linkName: "Careers",
+                    link: "/"
+                },
+            ]
+    },
+    {
+        header: 'Help',
+        links: [
+             {
+                linkName: "Customer Support",
+                link: "/"
+             },
+            {
+                linkName: "Troubleshooting",
+                link: "/"
+            },
+            {
+                linkName: "Guides",
+                link: "/"
+            },
+        ]
+    }
 ]

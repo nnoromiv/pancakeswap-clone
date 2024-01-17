@@ -1,14 +1,17 @@
-import { AstroBunny, Cryptos, Profit, Balls, Tickets } from "./Animations";
+import About from "./About";
+import { AstroBunny, Cryptos, Profit, Balls, Tickets, Coin, TopPancake, BottomPancake } from "./Animations";
 import { FatButton, SlimButton, ToggleSwitch } from "./Buttons";
-import Earn from "./Earn";
+import Earn, {Pool} from "./Earn";
 import Hero from "./Hero";
-import Nav from "./Nav";
+import Nav, {Logo} from "./Nav";
 import Prize from "./Prize";
 import Trade from "./Trade";
 import User, { Card } from "./User";
+import Footer, { TopFooter } from "./Footer";
 
 export {
     Nav,
+    Logo,
     Hero,
     FatButton,
     SlimButton,
@@ -19,8 +22,15 @@ export {
     Trade,
     Cryptos,
     Earn,
+    Pool,
     Profit,
     Prize,
     Balls,
-    Tickets
+    Tickets,
+    About,
+    Coin,
+    TopPancake,
+    BottomPancake,
+    TopFooter,
+    Footer
 }

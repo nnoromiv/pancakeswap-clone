@@ -5,12 +5,12 @@ import { useEffect, useState } from "react"
 import { PoolProps } from "../types"
 import { POOL, SYRUP } from "../constants"
 
-const Pool = ({ Pool } : PoolProps) => {
+export const Pool = ({ Pool } : PoolProps) => {
     return (
         Pool.map((item : any, index : number) => (
             <div key={index}>
-                <h5 className="font-semibold text-xs text-secondary">{item.poolName}</h5>
-                <p className="font-semibold text-xl text-secondary-darker dark:text-white">{item.gain}%</p>
+                <h5 className="font-semibold text-xs text-secondary">{item.title}</h5>
+                <p className="font-semibold text-xl text-secondary-darker dark:text-white">{item.text}%</p>
                 <p className="font-normal text-base dark:text-secondary-lightest">APR</p>
             </div>
         ))

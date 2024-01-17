@@ -1,5 +1,5 @@
 "use client"
-import { Earn, Hero, Nav, Prize, Trade, User } from '../../components'
+import { About, Earn, Footer, Hero, Nav, Prize, TopFooter, Trade, User } from '../../components'
 
 export default function Home() {
 
@@ -11,6 +11,9 @@ export default function Home() {
       <Trade />
       <Earn />
       <Prize />
+      <About />
+      <TopFooter />
+      <Footer />
     </main>
   )
 }

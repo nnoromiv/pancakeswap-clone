@@ -64,6 +64,7 @@ const config: Config = {
         'prize-gradient-dark': 'linear-gradient(180deg,#0b4576 0%,#091115 100%)',
         'gradient-gold': 'linear-gradient(#ffb237, #FFE76A)',
         'gradient-secondary' : 'linear-gradient(#7645D9, #5121b1)',
+        'footer-gradient': 'linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%)',
         'sun': "url(../../src/app/assets/svg/sun.svg)",
         'moon': "url(../../src/app/assets/svg/moon.svg)"
       },

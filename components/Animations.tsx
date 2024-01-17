@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ASTRO_BUNNY, BLUE, BNB, BOTTOM_LEFT_TICKET, BOTTOM_L_BIG_ROCK, BOTTOM_L_SMALL_ROCK, BOTTOM_ROCK, BOTTOM_R_PANCAKE, BTC, CAKE, FOLDER, GREEN, GREEN_TICKET, MIDDLE_R_STAR, PIE, PINK, PINK_TICKET, STAR_L_2X, STAR_R_2X, STOCK, TOP_RIGHT_TICKET, TOP_R_BIG_ROCK, TOP_R_SMALL_ROCK, TOP_R_STAR, TOP_R_STAR_2X, VIOLET, YELLOW } from "./images"
+import { ASTRO_BUNNY, BLUE, BNB, BOTTOM_LEFT, BOTTOM_LEFT_TICKET, BOTTOM_L_BIG_ROCK, BOTTOM_L_SMALL_ROCK, BOTTOM_MIDDLE, BOTTOM_RIGHT, BOTTOM_RIGHT_PANCAKES, BOTTOM_ROCK, BOTTOM_R_PANCAKE, BTC, CAKE, COIN, FOLDER, GREEN, GREEN_TICKET, MIDDLE_R_STAR, PIE, PINK, PINK_TICKET, STAR_L_2X, STAR_R_2X, STOCK, TOP_BOTTOM, TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, TOP_RIGHT_PANCAKES, TOP_RIGHT_TICKET, TOP_R_BIG_ROCK, TOP_R_SMALL_ROCK, TOP_R_STAR, TOP_R_STAR_2X, VIOLET, YELLOW } from "./images"
 import React, { useEffect } from "react"
 import { AnimationProps } from "../types"
 
@@ -116,10 +116,51 @@ const Tickets = () => {
     )
 }
 
+const Coin = () => {
+    return(
+        <Animation customStyle="max-w-[26rem] max-h-[26rem] z-0" id="layer">
+            <div>
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={TOP_RIGHT} data-layer="-1" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={BOTTOM_RIGHT} data-layer="-2" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={COIN} data-layer="0" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={TOP_LEFT} data-layer="2" />
+            </div>
+        </Animation>
+    )
+}
+
+
+const TopPancake = () => {
+    return(
+        <Animation customStyle="max-w-[16rem] max-h-[16rem] z-0" id="layer">
+            <div>
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={TOP_BOTTOM} data-layer="-2" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={TOP_MIDDLE} data-layer="0" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={TOP_RIGHT_PANCAKES} data-layer="-2" />
+            </div>
+        </Animation>
+    )
+}
+
+const BottomPancake = () => {
+    return(
+        <Animation customStyle="max-w-[16rem] max-h-[16rem] z-0" id="layer">
+            <div>
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={BOTTOM_LEFT} data-layer="-2" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={BOTTOM_MIDDLE} data-layer="0" />
+                <Image fill alt="" className="absolute top-0 left-0 object-cover h-full w-full pointer-events-none animate-layer" src={BOTTOM_RIGHT_PANCAKES} data-layer="-2" />
+            </div>
+        </Animation>
+    )
+}
+
 export {
     AstroBunny,
     Cryptos,
     Profit,
     Balls,
-    Tickets
+    Tickets,
+    Coin,
+    TopPancake,
+    BottomPancake
 }
