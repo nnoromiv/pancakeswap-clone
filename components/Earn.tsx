@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image"
 import { FatButton, Profit } from "."
 import { EARN_DIVIDER, EARN_DIVIDER_DARK, INTERCHANGE } from "./images"

@@ -72,3 +72,7 @@ export interface CardProps  {
     buttonImageDark: string | StaticImport
     textStyle?: string
 }
+
+export interface SecondaryProps {
+    caller: string
+}

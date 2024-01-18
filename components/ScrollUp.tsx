@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useCallback, useEffect, useState } from 'react'
 import { ARROW_UP } from './images'
 import { FatButton } from '.'
@@ -27,7 +29,7 @@ const ScrollUp = () => {
   return (
         !toScroll &&
         <div className='fixed bottom-12 right-12 p-4 z-[1000] scale-[1] overflow-hidden'>
-            <FatButton super={{ customStyle: "pl-2 pr-4 rounded-[50px]", clickFunction: clickedScroll}} outline image providedImage={ARROW_UP} />
+            <FatButton super={{ customStyle: "pl-1 pr-[0.7rem] rounded-[50px]", clickFunction: clickedScroll}} outline image providedImage={ARROW_UP} />
         </div>
   )
 }

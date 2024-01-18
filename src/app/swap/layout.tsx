@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
-import './globals.css'
 import { Kanit } from 'next/font/google'
-import { Provider } from '.'
+import { Provider } from '..'
 
 export const metadata: Metadata = {
   title: 'Pancake Swap',
@@ -17,12 +16,10 @@ export default function RootLayout({
 })
  {
   return (
-    <html lang="en" >
-      <body className={kanit.className}>
+    <main className={kanit.className}>
       <Provider>
         {children}
       </Provider>
-      </body>
-    </html>
+    </main>
   )
 }

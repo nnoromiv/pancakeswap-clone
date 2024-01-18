@@ -7,26 +7,26 @@ export const NAVIGATION = [
         links: [
             {
                 title: "Swap",
-                link: "/"
+                link: "/swap"
             },
             {
                 title: "Limit",
-                link: "/"
+                link: "/swap#limit"
 
             },
             {
                 title: "Liquidity",
-                link: "/"
+                link: "/swap#liquidity"
 
             },
             {
                 title: "Perpetual",
-                link: "/"
+                link: "/swap#perpetual"
 
             },
             {
                 title: "Bridge",
-                link: "/"
+                link: "/swap#bridge"
 
             },
         ]
@@ -396,3 +396,13 @@ export const FOOTER = [
         ]
     }
 ]
+
+export const DATA = [
+    { year: 2010, count: 10 },
+    { year: 2011, count: 20 },
+    { year: 2012, count: 15 },
+    { year: 2013, count: 25 },
+    { year: 2014, count: 22 },
+    { year: 2015, count: 30 },
+    { year: 2016, count: 28 },
+  ];

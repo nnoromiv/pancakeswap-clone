@@ -19,9 +19,9 @@ const FatButton : React.FC<FatButtonProps> = ({ super : {clickFunction, customSt
             </button>
             :
             <button onClick={clickFunction}  className={`flex dark:text-base-100 items-center tracking-sm justify-center h-12 py-0 px-6 bg-accent rounded-2xl shadow-shadow font-semibold text-sm text-primary cursor-pointer transition-all hover:opacity-65 active:opacity-85 active:translate-y-[1px] ${customStyle} active:shadow-none`}>
-                <p className="mr-2">{title}</p>
+                <p className="">{title}</p>
                 {
-                    image && <Image priority width={20} height={20} alt="share"  src={providedImage} className="" />
+                    image && <Image priority width={20} height={20} alt="share"  src={providedImage} className="ml-2" />
                 }
             </button>
         }

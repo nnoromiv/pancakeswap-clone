@@ -23,6 +23,8 @@ import INTERCHANGE from '../src/app/assets/svg/interchange.svg'
 import PREDICTION from '../src/app/assets/svg/prediction.svg'
 import LOTTERY_TAG from '../src/app/assets/svg/lottery.svg'
 import ARROW_UP from '../src/app/assets/svg/arrow-up.svg'
+import SWAP from '../src/app/assets/svg/swap.svg'
+import UNDER_CONSTRUCTION from '../src/app/assets/svg/under-construction.svg'
 
 
 import APTOS from "../src/app/assets/Images/aptos.png"
@@ -160,4 +162,7 @@ export {
     TOP_BOTTOM,   
     TOP_MIDDLE,   
     TOP_RIGHT_PANCAKES,
+    SWAP,
+
+    UNDER_CONSTRUCTION
 }

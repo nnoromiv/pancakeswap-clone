@@ -9,6 +9,9 @@ import ScrollUp from "./ScrollUp";
 import Trade from "./Trade";
 import User, { Card } from "./User";
 import Footer, { TopFooter } from "./Footer";
+import TradeNav from "./TradeNav";
+import UnderConstruction from "./UnderConstruction";
+
 
 export {
     Nav,
@@ -34,5 +37,8 @@ export {
     TopPancake,
     BottomPancake,
     TopFooter,
-    Footer
+    Footer,
+
+    TradeNav,
+    UnderConstruction
 }
