@@ -23,7 +23,7 @@ const TradeNav = ({ caller } : SecondaryProps) => {
 
     return (
     <>
-        <div className='h-10 bg-primary-darker'>
+        <div className='h-10 bg-primary-darker dark:bg-base-100'>
             <div role='tablist'  className='tabs tabs-lifted h-full flex justify-center items-center gap-3'>
             {
                 PAGE_NAVIGATION?.map((item,index) => (

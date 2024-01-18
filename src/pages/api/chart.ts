@@ -13,7 +13,7 @@ export function chart(id: string, time : string, previous : number, next : numbe
                 // label: 'By Year',
                 data: randomData(timeUnitInMs.year,timeUnitInMs.hour),
                 fill: true,
-                backgroundColor: redOrGreenGradient(previous, next, .5, 0),
+                backgroundColor: redOrGreenGradient(previous, next, .5, .07),
                 borderColor: redOrGreen(previous, next),                
                 borderWidth: 2,
                 tension: .2,

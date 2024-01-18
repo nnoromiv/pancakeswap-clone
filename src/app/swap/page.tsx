@@ -4,7 +4,7 @@ import { Footer, Nav, TradeNav } from '../../../components'
 const page = () => {
 
   return (
-    <main  className="min-h-screen bg-primary dark:bg-primary-dark-mode overflow-x-hidden" >
+    <main  className="min-h-screen bg-hero-gradient dark:bg-hero-gradient-dark overflow-x-hidden" >
         <Nav />
         <TradeNav caller='/swap'/>
         <Footer />
