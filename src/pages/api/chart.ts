@@ -1,4 +1,4 @@
-import { Chart as ChartJS, ChartConfiguration, registerables} from "chart.js";
+import { Chart as ChartJS, ChartConfiguration, registerables} from "chart.js/auto";
 import { chartData, maxValue, minValue, randomData, redOrGreen, redOrGreenGradient, timeUnitInMs, valueRanges } from "./utils";
 
 export function chart(id: string, time : string, previous : number, next : number): void {

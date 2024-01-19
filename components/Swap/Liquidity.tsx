@@ -16,7 +16,7 @@ const Liquidity = () => {
           <Image className="h-6 w-6 bg-transparent hover:opacity-70 cursor-pointer" src={RELOAD} width={24} height={24} alt='' />
         </div>
       </div>
-      <h2 className="py-6 dark:bg-black text-center dark:text-secondary-lightest">Connect to a wallet to view your liquidity.</h2>
+      <h2 className="py-6 bg-primary-darker dark:bg-black text-center dark:text-secondary-lightest">Connect to a wallet to view your liquidity.</h2>
       <div className="px-4">
         <FatButton super={{ title: "Add Liquidity", customStyle: "my-5 w-full "}} image={false} providedImage={""} />
       </div>
