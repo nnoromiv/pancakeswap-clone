@@ -42,7 +42,8 @@ const config: Config = {
         "card-shadow": "#E7E3EB",
         "card-shadow-dark": "#383241",
         "card-background": "#ffffff", 
-        "trade-dark":"#212529"
+        "trade-dark":"#212529",
+        "input-color": "#EEEAF4"
       },
       boxShadow : {
         "shadow": "inset 0px -1px 0px 0px  #0E0E2C66",

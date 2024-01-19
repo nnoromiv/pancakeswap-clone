@@ -16,7 +16,7 @@ export function chart(id: string, time : string, previous : number, next : numbe
                 backgroundColor: redOrGreenGradient(previous, next, .5, .07),
                 borderColor: redOrGreen(previous, next),                
                 borderWidth: 2,
-                tension: .2,
+                tension: .6,
                                        
             }
         ]
@@ -27,6 +27,15 @@ export function chart(id: string, time : string, previous : number, next : numbe
         data,
         options: {            
             maintainAspectRatio: false,
+            animations: {
+                tension: {
+                  duration: 1000,
+                  easing: 'linear',
+                  from: 1,
+                  to: 0,
+                  loop: true
+                }
+              },
             scales: {
                 x: {
                     type: "category",                    

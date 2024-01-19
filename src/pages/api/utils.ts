@@ -19,14 +19,14 @@ export const timeUnitInMs = {
 }
 
 
-export function randomNumber(value : number, range = 10) {
+export function randomNumber(value : number, range = Math.random()) {
     value += Math.random()*range - (range/2)
     return value
 }
 
 export function randomData(timeRange = 0, timeUnit = 0){
     let dataSet : dataSet = []
-    let current = 70
+    let current = Math.random()
     let numberOfValues = timeRange / timeUnit
 
     for(let i = 0; i < numberOfValues; i++){

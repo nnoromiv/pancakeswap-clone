@@ -25,6 +25,12 @@ import LOTTERY_TAG from '../src/app/assets/svg/lottery.svg'
 import ARROW_UP from '../src/app/assets/svg/arrow-up.svg'
 import SWAP from '../src/app/assets/svg/swap.svg'
 import UNDER_CONSTRUCTION from '../src/app/assets/svg/under-construction.svg'
+import TOGGLE_CHART from '../src/app/assets/svg/toggle-chart.svg'
+import FIRE from '../src/app/assets/svg/fire.svg'
+import SETTINGS from '../src/app/assets/svg/settings.svg'
+import RELOAD from '../src/app/assets/svg/reload.svg'
+import TOGGLE_CHART_OFF from '../src/app/assets/svg/toggle-chart-off.svg'
+
 
 
 import APTOS from "../src/app/assets/Images/aptos.png"
@@ -164,5 +170,12 @@ export {
     TOP_RIGHT_PANCAKES,
     SWAP,
 
-    UNDER_CONSTRUCTION
+    UNDER_CONSTRUCTION,
+
+    TOGGLE_CHART,
+    FIRE,
+    SETTINGS,
+    RELOAD,
+
+    TOGGLE_CHART_OFF
 }

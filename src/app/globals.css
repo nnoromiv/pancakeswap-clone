@@ -17,6 +17,10 @@
   display: none
 }
 
+::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+  -webkit-appearance:  none;
+}
+
 .embla {
   --slide-spacing: 1rem;
   --slide-size: 100%;
