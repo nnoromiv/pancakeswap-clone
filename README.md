@@ -8,31 +8,31 @@ This TypeScript project is a cryptocurrency swap platform frontend. It was inspi
 
 ### Home
 
-[!Home]('/src/app/assets/Previews/1.png')
+[!Home](src/app/assets/Previews/1.png)
 
 ### Home DarkMode
 
-[!Home]('/src/app/assets/Previews/4.png')
+[!Home](src/app/assets/Previews/4.png)
 
 ### Trade Hero
 
-[!TradeHome]('/src/app/assets/Previews/2.png')
+[!TradeHome](src/app/assets/Previews/2.png)
 
 ### Footer
 
-[!Footer]('/src/app/assets/Previews/3.png')
+[!Footer](src/app/assets/Previews/3.png)
 
 ### More Dark Mode
 
-[!DarkMode]('/src/app/assets/Previews/5.png')
+[!DarkMode](src/app/assets/Previews/5.png)
 
 ### Swap Page
 
-[!Swap]('/src/app/assets/Previews/6.png')
+[!Swap](src/app/assets/Previews/6.png)
 
 ### Liquidity Tab
 
-[!Liquidity]('/src/app/assets/Previews/7.png')
+[!Liquidity](src/app/assets/Previews/7.png)
 
 ## Technologies Used
 
