@@ -49,7 +49,6 @@ This TypeScript project is a cryptocurrency swap platform frontend. It was inspi
 
 ```bash
    git clone https://github.com/nnoromiv/pancakeswapclone.git
-   cd cryptocurrency-swap
 ```
 
 2 **Install Dependencies:**
