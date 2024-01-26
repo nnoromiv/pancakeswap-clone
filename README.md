@@ -60,7 +60,7 @@ This TypeScript project is a cryptocurrency swap platform frontend. It was inspi
 3 Run the Application:
 
 ```bash
-    npm install
+    npm run dev
 ```
 
 ## Access the Application
